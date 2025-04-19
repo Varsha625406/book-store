@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BookStore - Catalog</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="scripts.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Catalog</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="catalog.html">Catalog</a>
+      <a href="cart.html">Cart</a>
+      <a href="contact.html">Contact</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </header>
+  <main id="book-list" class="product-list">
+    <div class="product">
+	 <img src="alchemist.jpg" alt="The Alchemist" class="product-image">
+      <h3>The Alchemist</h3>
+      <p>$9.99</p>
+      <button onclick="addToCart('The Alchemist')">Add to Cart</button>
+    </div>
+    <div class="product">
+	<img src="atomic_habits.jpg" alt="Atomic Habits" class="product-image">
+      <h3>Atomic Habits</h3>
+      <p>$14.99</p>
+      <button onclick="addToCart('Atomic Habits')">Add to Cart</button>
+    </div>
+    <div class="product">
+      <h3>Deep Work</h3>
+	<img src="deep_work.jpg" alt="Deep Work" class="product-image">
+
+      <p>$12.49</p>
+      <button onclick="addToCart('Deep Work')">Add to Cart</button>
+    </div>
+    <div class="product">
+	<img src="Rich_Dad_Poor_Dad.jpg" alt="Deep Work" class="product-image">
+
+      <h3>Rich Dad Poor Dad</h3>
+      <p>$11.99</p>
+      <button onclick="addToCart('Rich Dad Poor Dad')">Add to Cart</button>
+    </div>
+    <div class="product">
+	<img src="Start_With_Why.jpg" alt="Deep Work" class="product-image">
+      <h3>Start With Why</h3>
+      <p>$13.50</p>
+      <button onclick="addToCart('Start With Why')">Add to Cart</button>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2025 BookStore</p>
+  </footer>
+</body>
+</html>
